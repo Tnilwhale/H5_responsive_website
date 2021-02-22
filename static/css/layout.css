@@ -1478,8 +1478,10 @@ body {
 	line-height:38px
 }
 .font32 {
-	font-size:32px;
-	line-height:36px
+	/*font-size:32px;*/
+	font-size: 28px;
+	line-height:36px;
+	font-weight: 700
 }
 .font30 {
 	font-size:30px;
@@ -6237,7 +6239,8 @@ body {
 }
 .indxAboutus .par-text {
 	top:45%;
-	left:38px;
+	/*left:38px;*/
+	left: 200px;
 	max-width:385px
 }
 .indxAboutus .par-text h3 {
