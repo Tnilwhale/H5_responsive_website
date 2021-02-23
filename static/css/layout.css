@@ -1671,7 +1671,8 @@ body {
 }
 .clumb-title .cn {
 	color:#34364b;
-	padding:0 0 4px
+	/*padding:0 0 4px*/
+	padding:0 0 30px
 }
 .common-clumb-min {
 	padding-top:30px
