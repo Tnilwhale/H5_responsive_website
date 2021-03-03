@@ -3630,7 +3630,8 @@ body {
 }
 }.Pledge-min {
 	background:url(../image/wicon12.png) no-repeat 100% 30px;
-	color:#929292
+	color:#929292;
+	line-height: 30px;
 }
 @media(min-width:1024px) {
 	.Pledetext {
@@ -6032,10 +6033,17 @@ body {
 	background-size:100%
 }
 .index-btn.index-prev {
-	left:-30px
+	left:-30px;
+	display: none;
 }
 .index-btn.index-next {
-	right:-30px
+	right:-30px;
+	display: none;
+}
+.licenter{
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
 }
 .index-more a {
 	-webkit-transform:perspective(1px) translateZ(0);
@@ -6103,17 +6111,31 @@ body {
 }
 }@media(min-width:1400px) {
 	.index-btn.index-prev {
-	left:-80px
+	left:-80px;
+	display: none;
 }
 .index-btn.index-next {
-	right:-80px
+	right:-80px;
+	display: none;
+}
+.licenter{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
 }
 }@media(min-width:1440px) {
 	.index-btn.index-prev {
-	left:-106px
+	left:-106px;
+	display: none;
 }
 .index-btn.index-next {
-	right:-106px
+	right:-106px;
+	display: none;
+}
+.licenter{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
 }
 }.indxNews-wraper {
 	position:relative;
