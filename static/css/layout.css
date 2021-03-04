@@ -6843,12 +6843,12 @@ body {
 	transition:all ease .5s
 }
 .prodatile-prev {
-	background-image:url(../image/prevho.png);
-	left:0
+	background-image:url(../image/swiper_button_001.png);
+	left:5px
 }
 .prodatile-next {
-	background-image:url(../image/nextho.png);
-	right:0
+	background-image:url(../image/swiper_button_002.png);
+	right:5px
 }
 @media(min-width:1024px) {
 	.prodatile-btn {
