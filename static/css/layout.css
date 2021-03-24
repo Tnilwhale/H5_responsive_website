@@ -2734,7 +2734,8 @@ body {
 .newscenter-list li .news-img {
 	overflow:hidden;
 	width: 378px;
-    height: 278px
+	/*height: 278px*/
+	height: 213px
 }
 .newscenter-list li .news-img img {
 	-webkit-transition:all ease .7s;
